@@ -1,0 +1,15 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+RewriteBase /
+
+<IfModule mod_rewrite.c>
+ RewriteRule ^active$ active.php [QSA,L]
+ </IfModule>
+<IfModule mod_rewrite.c>
+ RewriteRule ^token$ token.php [QSA,L]
+ </IfModule>
+<IfModule mod_rewrite.c>
+ RewriteRule ^allow$ allow.php [QSA,L]
+ </IfModule>
+<IfModule mod_rewrite.c>
+ RewriteRule ^tut$ tutorial.php [QSA,L]
+ </IfModule>
